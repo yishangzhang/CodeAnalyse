@@ -1,0 +1,346 @@
+Breakpoint 1 at 0x40118f
+Breakpoint 2 at 0x40118f
+Breakpoint 3 at 0x401160
+Breakpoint 4 at 0x401160
+Breakpoint 5 at 0x401160
+Breakpoint 6 at 0x401160
+Breakpoint 7 at 0x401160
+Breakpoint 8 at 0x401160
+Breakpoint 9 at 0x401160
+Breakpoint 10 at 0x401160
+Breakpoint 11 at 0x401195
+Breakpoint 12 at 0x401190
+Breakpoint 13 at 0x40118f
+Breakpoint 14 at 0x40118f
+Breakpoint 15 at 0x401160
+Breakpoint 16 at 0x401160
+Breakpoint 17 at 0x401160
+Breakpoint 18 at 0x401160
+Breakpoint 19 at 0x401160
+Breakpoint 20 at 0x401160
+Breakpoint 21 at 0x401160
+Breakpoint 22 at 0x401160
+Breakpoint 23 at 0x401190
+Breakpoint 24 at 0x40118f
+Breakpoint 25 at 0x401160
+Breakpoint 26 at 0x401160
+Breakpoint 27 at 0x401160
+Breakpoint 28 at 0x401160
+Breakpoint 29 at 0x401160
+Breakpoint 30 at 0x401160
+Breakpoint 31 at 0x401160
+Breakpoint 32 at 0x401160
+Breakpoint 33 at 0x4011a0
+Breakpoint 34 at 0x401190
+Breakpoint 35 at 0x401210
+Breakpoint 36 at 0x401db8
+Breakpoint 37 at 0x401240
+Breakpoint 38 at 0x401399: file parallel.cpp, line 15.
+Breakpoint 39 at 0x401000
+Breakpoint 40 at 0x401db0
+Breakpoint 41 at 0x401d40
+Breakpoint 42 at 0x4012ae: file parallel.cpp, line 9.
+Breakpoint 43 at 0x4011d0
+Breakpoint 44 at 0x401160
+Breakpoint 45 at 0x401365: file parallel.cpp, line 15.
+Breakpoint 46 at 0x401252: file parallel.cpp, line 5.
+Breakpoint 47 at 0x4013cb: file /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h, line 687.
+Breakpoint 48 at 0x4013ae: file /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h, line 252.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+Breakpoint 37, 0x00007ffff7fa2b70 in frame_dummy () from /lib64/libpthread.so.0
+#0  0x00007ffff7fa2b70 in frame_dummy () from /lib64/libpthread.so.0
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5e79 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 43, 0x00007ffff7fa2af0 in register_tm_clones () from /lib64/libpthread.so.0
+#0  0x00007ffff7fa2af0 in register_tm_clones () from /lib64/libpthread.so.0
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5e79 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 37, 0x00007ffff7c4dcf0 in frame_dummy () from /lib64/libgcc_s.so.1
+#0  0x00007ffff7c4dcf0 in frame_dummy () from /lib64/libgcc_s.so.1
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 43, 0x00007ffff7c4dc70 in register_tm_clones () from /lib64/libgcc_s.so.1
+#0  0x00007ffff7c4dc70 in register_tm_clones () from /lib64/libgcc_s.so.1
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 37, 0x00007ffff7c74490 in frame_dummy () from /lib64/libm.so.6
+#0  0x00007ffff7c74490 in frame_dummy () from /lib64/libm.so.6
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 43, 0x00007ffff7c74410 in register_tm_clones () from /lib64/libm.so.6
+#0  0x00007ffff7c74410 in register_tm_clones () from /lib64/libm.so.6
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 37, 0x00007ffff7e521f0 in frame_dummy () from /lib64/libstdc++.so.6
+#0  0x00007ffff7e521f0 in frame_dummy () from /lib64/libstdc++.so.6
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 43, 0x00007ffff7e52170 in register_tm_clones () from /lib64/libstdc++.so.6
+#0  0x00007ffff7e52170 in register_tm_clones () from /lib64/libstdc++.so.6
+#1  0x00007ffff7fe5cee in call_init.part () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7fe5dd8 in _dl_init () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ffff7fd636a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#4  0x0000000000000001 in ?? ()
+#5  0x00007fffffffe23c in ?? ()
+#6  0x0000000000000000 in ?? ()
+
+Breakpoint 3, 0x0000000000401160 in _start ()
+#0  0x0000000000401160 in _start ()
+
+Breakpoint 41, 0x0000000000401d40 in __libc_csu_init ()
+#0  0x0000000000401d40 in __libc_csu_init ()
+#1  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#2  0x000000000040118e in _start ()
+
+Breakpoint 39, 0x0000000000401000 in _init ()
+#0  0x0000000000401000 in _init ()
+#1  0x0000000000401d71 in __libc_csu_init ()
+#2  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#3  0x000000000040118e in _start ()
+
+Breakpoint 37, 0x0000000000401240 in frame_dummy ()
+#0  0x0000000000401240 in frame_dummy ()
+#1  0x0000000000401d8d in __libc_csu_init ()
+#2  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#3  0x000000000040118e in _start ()
+
+Breakpoint 43, 0x00000000004011d0 in register_tm_clones ()
+#0  0x00000000004011d0 in register_tm_clones ()
+#1  0x0000000000401d8d in __libc_csu_init ()
+#2  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#3  0x000000000040118e in _start ()
+
+Breakpoint 38, _GLOBAL__sub_I__Z5helloi () at parallel.cpp:15
+15	}
+#0  _GLOBAL__sub_I__Z5helloi () at parallel.cpp:15
+#1  0x0000000000401d8d in __libc_csu_init ()
+#2  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#3  0x000000000040118e in _start ()
+
+Breakpoint 45, __static_initialization_and_destruction_0 (__initialize_p=1, __priority=65535) at parallel.cpp:15
+15	}
+#0  __static_initialization_and_destruction_0 (__initialize_p=1, __priority=65535) at parallel.cpp:15
+#1  0x00000000004013a8 in _GLOBAL__sub_I__Z5helloi () at parallel.cpp:15
+#2  0x0000000000401d8d in __libc_csu_init ()
+#3  0x00007ffff7aac9fe in __libc_start_main () from /lib64/libc.so.6
+#4  0x000000000040118e in _start ()
+
+Breakpoint 42, main () at parallel.cpp:9
+9	    int x = 42;
+#0  main () at parallel.cpp:9
+[New Thread 0x7ffff7a68640 (LWP 3144681)]
+[New Thread 0x7ffff7267640 (LWP 3144682)]
+[Switching to Thread 0x7ffff7a68640 (LWP 3144681)]
+
+Thread 2 "a.out" hit Breakpoint 46, hello (x=1) at parallel.cpp:5
+5	    std::cout << "Hello from thread " << std::this_thread::get_id() << ", x = " << x << std::endl;
+#0  hello (x=1) at parallel.cpp:5
+#1  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#2  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#3  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x416eb8) at /usr/include/c++/10/thread:264
+#4  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x416eb8) at /usr/include/c++/10/thread:271
+#5  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x416eb0) at /usr/include/c++/10/thread:215
+#6  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#7  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Switching to Thread 0x7ffff7267640 (LWP 3144682)]
+
+Thread 3 "a.out" hit Breakpoint 46, hello (x=1) at parallel.cpp:5
+5	    std::cout << "Hello from thread " << std::this_thread::get_id() << ", x = " << x << std::endl;
+#0  hello (x=1) at parallel.cpp:5
+#1  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#2  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#3  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x417008) at /usr/include/c++/10/thread:264
+#4  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x417008) at /usr/include/c++/10/thread:271
+#5  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x417000) at /usr/include/c++/10/thread:215
+#6  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#7  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Switching to Thread 0x7ffff7a68640 (LWP 3144681)]
+
+Thread 2 "a.out" hit Breakpoint 48, __gthread_active_p () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:252
+252	  return __gthread_active_ptr != 0;
+#0  __gthread_active_p () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:252
+#1  0x000000000040147f in std::this_thread::get_id () at /usr/include/c++/10/thread:372
+#2  0x0000000000401269 in hello (x=1) at parallel.cpp:5
+#3  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#4  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#5  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x416eb8) at /usr/include/c++/10/thread:264
+#6  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x416eb8) at /usr/include/c++/10/thread:271
+#7  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x416eb0) at /usr/include/c++/10/thread:215
+#8  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#9  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#10 0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Switching to Thread 0x7ffff7267640 (LWP 3144682)]
+
+Thread 3 "a.out" hit Breakpoint 48, __gthread_active_p () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:252
+252	  return __gthread_active_ptr != 0;
+#0  __gthread_active_p () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:252
+#1  0x000000000040147f in std::this_thread::get_id () at /usr/include/c++/10/thread:372
+#2  0x0000000000401269 in hello (x=1) at parallel.cpp:5
+#3  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#4  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#5  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x417008) at /usr/include/c++/10/thread:264
+#6  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x417008) at /usr/include/c++/10/thread:271
+#7  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x417000) at /usr/include/c++/10/thread:215
+#8  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#9  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#10 0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Switching to Thread 0x7ffff7a68640 (LWP 3144681)]
+
+Thread 2 "a.out" hit Breakpoint 47, __gthread_self () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:687
+687	  return __gthrw_(pthread_self) ();
+#0  __gthread_self () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:687
+#1  0x00000000004014a4 in std::this_thread::get_id () at /usr/include/c++/10/thread:375
+#2  0x0000000000401269 in hello (x=1) at parallel.cpp:5
+#3  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#4  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x416ec0: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#5  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x416eb8) at /usr/include/c++/10/thread:264
+#6  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x416eb8) at /usr/include/c++/10/thread:271
+#7  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x416eb0) at /usr/include/c++/10/thread:215
+#8  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#9  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#10 0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Switching to Thread 0x7ffff7267640 (LWP 3144682)]
+
+Thread 3 "a.out" hit Breakpoint 47, __gthread_self () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:687
+687	  return __gthrw_(pthread_self) ();
+#0  __gthread_self () at /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h:687
+#1  0x00000000004014a4 in std::this_thread::get_id () at /usr/include/c++/10/thread:375
+#2  0x0000000000401269 in hello (x=1) at parallel.cpp:5
+#3  0x0000000000401ca4 in std::__invoke_impl<void, void (*)(int), int> (__f=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:60
+#4  0x0000000000401c0d in std::__invoke<void (*)(int), int> (__fn=@0x417010: 0x401246 <hello(int)>) at /usr/include/c++/10/bits/invoke.h:95
+#5  0x0000000000401b7d in std::thread::_Invoker<std::tuple<void (*)(int), int> >::_M_invoke<0ul, 1ul> (this=0x417008) at /usr/include/c++/10/thread:264
+#6  0x0000000000401b36 in std::thread::_Invoker<std::tuple<void (*)(int), int> >::operator() (this=0x417008) at /usr/include/c++/10/thread:271
+#7  0x0000000000401b1a in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int), int> > >::_M_run (this=0x417000) at /usr/include/c++/10/thread:215
+#8  0x00007ffff7e83b74 in execute_native_thread_routine () from /lib64/libstdc++.so.6
+#9  0x00007ffff7fa43fb in start_thread () from /lib64/libpthread.so.0
+#10 0x00007ffff7aabe83 in clone () from /lib64/libc.so.6
+[Thread 0x7ffff7a68640 (LWP 3144681) exited]
+[Thread 0x7ffff7267640 (LWP 3144682) exited]
+[Switching to Thread 0x7ffff7a69740 (LWP 3144677)]
+
+Thread 1 "a.out" hit Breakpoint 35, 0x0000000000401210 in __do_global_dtors_aux ()
+#0  0x0000000000401210 in __do_global_dtors_aux ()
+#1  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 33, 0x00000000004011a0 in deregister_tm_clones ()
+#0  0x00000000004011a0 in deregister_tm_clones ()
+#1  0x0000000000401226 in __do_global_dtors_aux ()
+#2  0x00007fffffffddf0 in ?? ()
+#3  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+Backtrace stopped: frame did not save the PC
+
+Thread 1 "a.out" hit Breakpoint 36, 0x0000000000401db8 in _fini ()
+#0  0x0000000000401db8 in _fini ()
+#1  0x00007ffff7fe6105 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 35, 0x00007ffff7fa2b30 in __do_global_dtors_aux () from /lib64/libpthread.so.0
+#0  0x00007ffff7fa2b30 in __do_global_dtors_aux () from /lib64/libpthread.so.0
+#1  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 33, 0x00007ffff7fa2ac0 in deregister_tm_clones () from /lib64/libpthread.so.0
+#0  0x00007ffff7fa2ac0 in deregister_tm_clones () from /lib64/libpthread.so.0
+#1  0x00007ffff7fa2b5c in __do_global_dtors_aux () from /lib64/libpthread.so.0
+#2  0x00007fffffffddf0 in ?? ()
+#3  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+Backtrace stopped: frame did not save the PC
+
+Thread 1 "a.out" hit Breakpoint 35, 0x00007ffff7e521b0 in __do_global_dtors_aux () from /lib64/libstdc++.so.6
+#0  0x00007ffff7e521b0 in __do_global_dtors_aux () from /lib64/libstdc++.so.6
+#1  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 33, 0x00007ffff7e52140 in deregister_tm_clones () from /lib64/libstdc++.so.6
+#0  0x00007ffff7e52140 in deregister_tm_clones () from /lib64/libstdc++.so.6
+#1  0x00007ffff7e521dc in __do_global_dtors_aux () from /lib64/libstdc++.so.6
+#2  0x00007fffffffddf0 in ?? ()
+#3  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+Backtrace stopped: frame did not save the PC
+
+Thread 1 "a.out" hit Breakpoint 35, 0x00007ffff7c74450 in __do_global_dtors_aux () from /lib64/libm.so.6
+#0  0x00007ffff7c74450 in __do_global_dtors_aux () from /lib64/libm.so.6
+#1  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 33, 0x00007ffff7c743e0 in deregister_tm_clones () from /lib64/libm.so.6
+#0  0x00007ffff7c743e0 in deregister_tm_clones () from /lib64/libm.so.6
+#1  0x00007ffff7c7447c in __do_global_dtors_aux () from /lib64/libm.so.6
+#2  0x00007fffffffddf0 in ?? ()
+#3  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+Backtrace stopped: frame did not save the PC
+
+Thread 1 "a.out" hit Breakpoint 35, 0x00007ffff7c4dcb0 in __do_global_dtors_aux () from /lib64/libgcc_s.so.1
+#0  0x00007ffff7c4dcb0 in __do_global_dtors_aux () from /lib64/libgcc_s.so.1
+#1  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ffff7ac48c7 in __run_exit_handlers () from /lib64/libc.so.6
+#3  0x00007ffff7ac4a70 in exit () from /lib64/libc.so.6
+#4  0x00007ffff7aaca79 in __libc_start_main () from /lib64/libc.so.6
+#5  0x000000000040118e in _start ()
+
+Thread 1 "a.out" hit Breakpoint 33, 0x00007ffff7c4dc40 in deregister_tm_clones () from /lib64/libgcc_s.so.1
+#0  0x00007ffff7c4dc40 in deregister_tm_clones () from /lib64/libgcc_s.so.1
+#1  0x00007ffff7c4dcdc in __do_global_dtors_aux () from /lib64/libgcc_s.so.1
+#2  0x00007fffffffddf0 in ?? ()
+#3  0x00007ffff7fe60e3 in _dl_fini () from /lib64/ld-linux-x86-64.so.2
+Backtrace stopped: frame did not save the PC
+[Inferior 1 (process 3144677) exited normally]
+Traceback (most recent call last):
+  File "debug.py", line 27, in <module>
+    gdb.execute("bt");
+gdb.error: No stack.

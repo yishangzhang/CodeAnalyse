@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "debug.py", line 25, in <module>
+    gdb.execute("run   > /dev/null");
+gdb.error: No executable file specified.
+Use the "file" or "exec-file" command.
+Quit
