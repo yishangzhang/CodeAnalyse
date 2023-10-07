@@ -156,8 +156,8 @@ There are two parts to the whole process:
 
 ### Dependencies    
 
-    sudo apt-get install graphviz
-    sudo python3 -m pip install -r requiments.txt
+    sudo apt-get install python3-pip graphviz gdb  -y 
+    sudo python3 -m pip install -r requiments.txt -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
 
 ### Run gen_graph.py    
